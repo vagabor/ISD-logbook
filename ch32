@@ -1,0 +1,5 @@
+print("This program adds two number up")
+Number1 = int(input("The first number is:"))
+Number2 = int(input("The second number is:"))
+Res = Number1+Number2
+print("The result is:", Res)
