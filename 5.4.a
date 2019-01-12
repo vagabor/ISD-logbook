@@ -1,0 +1,14 @@
+#asking the user to enter magnitude
+Richter = float(input("Enter the magnitude of the richter scale"))
+
+#Print the destruction
+if Richter >= 8.0: 
+    print("Most structures fall")
+elif Richter >= 7.0:
+    print("Many building destroyed")
+elif Richter >= 6.0:
+    print("Many building considerably damaged, some collapse")
+elif Richter >= 5.0:
+    print("Damage to poorly cunstructed buildings")
+else:
+    print("No destruction of buildings")
