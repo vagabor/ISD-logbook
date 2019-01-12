@@ -1,0 +1,4 @@
+print("Hi there, what is your name?")
+Sname = input('My name is: ')
+print('Hello', Sname)
+print("How are you today?")
