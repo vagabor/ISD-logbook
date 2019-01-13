@@ -1,4 +1,7 @@
 x=int(input("Enter the value: "))
 y=7
+qtnt=x//y
 rmndr=x%y
+print("7 fits in:",qtnt,"times")
 print("Remainder is:",rmndr)
+
