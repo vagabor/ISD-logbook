@@ -1,0 +1,4 @@
+x=int(input("Enter the value: "))
+y=7
+rmndr=x%y
+print("Remainder is:",rmndr)
