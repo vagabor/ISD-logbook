@@ -1,0 +1,13 @@
+no1snt=input("Please type in the first sentence: ")    #Entering the input
+no2snt=input("Please type in the second sentence: ")
+no3snt= no1snt+""+no2snt                               #Adding the sentences together
+print(no3snt)                                          #printing out the long sentence
+word=no3snt.split(" ")                                 #separating sentences into words
+word=sorted(word)                                      #sorting words
+print("individual words are: ")                        #printing individual words
+print(word)
+print ("Number of words", len(word))                   #coding the number of words   
+dict={}
+for i in range(len(word)):                             #creating dictionary
+    dict[i]=word[i]
+print(dict)
