@@ -1,0 +1,36 @@
+class Student():
+    def __init__(self, course, studentnumber, surname, lastname):
+        self.studentnumber = studentnumber
+        self.course=course
+        self.lastname=lastname
+        self.surname=surname
+    
+    def printdetails(self):
+        print("What is the surname = ", self.surname)
+        print("what is the lastname = ", self.lastname)
+        print("What is the studentnumber = ", self.studentnumber)
+        print("What course is it = ",self.course)
+        
+    def getsurname(self):
+        return self.surname
+    
+    def getlastname(self):
+        return self.lastname
+        
+    def getStudentnumber(self):
+        return self.studentnumber
+        
+    def getcourse(self):
+        return self.course
+        
+    def setSurname(self, surnameinput):
+        self.surname = surnameinput
+    
+    def setlastname(self, lastnameinput):
+        self.lastname=lastnameinput
+        
+    def setStudentnumber(self, studentnumberinput):
+        self.studentnumber=studentnumberinput
+        
+    def setcourse(self, courseinput):
+        self.course=courseinput
